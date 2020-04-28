@@ -13,8 +13,8 @@ public class Formas extends PApplet {
         // definimos atributos para todoa la clase
         // es la ventana de salida de la aplicacion
         // en Processing las aplicaciones se llaman sketchs
-        int viewport_w = 640; // ancho en pixels
-        int viewport_h = 360; // alto en pixels
+        int viewport_w = 500; // ancho en pixels
+        int viewport_h = 340; // alto en pixels
 
         // truco para poder ejecutar nuestro código
         // en el entorno gráfico ya creado
@@ -32,7 +32,7 @@ public class Formas extends PApplet {
         // en este metodo tambien podemos meter configuraciones iniciales de nuestro sketch
         @Override
         public void setup() {
-                // pintamos la ventana según rgb
+                // le damos un color al fondo
                 background(250,250,250);
         }
 
@@ -48,7 +48,7 @@ public class Formas extends PApplet {
                 rect(0,100,500,100);//creamos el rectángulo con cierto tamaño
                 fill(209,0,0);//le damos un color rojo al rectángulo
                 rect(0,200,500,100);//creamos el rectángulo con cierto tamaño
-                text("Bandera de Espana",520,150);
+                text("Bandera de Espana",0,330);
         }
 
 }
