@@ -47,6 +47,7 @@ public class Imagenes extends PApplet {
             // cargamos la imagen en la ventana en cada iteración del bucle
             // posicionamos la imagen segun el movimiento del raton
             image(theKing,0,0,mouseX,mouseY);
+            tint(255,mouseY,mouseX);
         }
 
 }
